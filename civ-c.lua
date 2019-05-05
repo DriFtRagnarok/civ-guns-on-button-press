@@ -3,6 +3,8 @@
 
 RegisterCommand("civilian", function()
 
+    Citizen.Wait(1)
+
             giveWeapon("weapon_Pistol")
             giveWeapon("weapon_APPistol")
             giveWeapon("weapon_MicroSMG")
