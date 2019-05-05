@@ -1,4 +1,4 @@
-RegisterCommand(function()
+RegisterCommand("clear", function()
     RemoveAllPedWeapons(GetPlayerPed(-1), true)
-    notify("~r~You're Weapons were cleared!")
+    notify("~r~Your Weapons were cleared!")
 end)

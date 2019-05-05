@@ -12,6 +12,6 @@ RegisterCommand("cop", function()
             giveWeapon("weapon_PumpShotgun")
             giveWeapon("weapon_PetrolCan")
 
-            notify("~g~You're Police Loadout was given to you!")
+            notify("~g~Your Police Loadout was given to you!")
 
 end)
