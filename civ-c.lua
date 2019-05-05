@@ -1,12 +1,8 @@
 --Created by DriFt Ragnarok for San Andreas Department of Law
 --DO NOT REPRODUCE WITHOUT MY PERMISSION
 
-Citizen.CreateThread(function()
+RegisterCommand("civilian", function()
 
-    local 7 = 117
-    while true do
-        Citizen.Wait(1)
-        if IsControlJustReleased(1, 8) then
             giveWeapon("weapon_Pistol")
             giveWeapon("weapon_APPistol")
             giveWeapon("weapon_MicroSMG")
