@@ -16,4 +16,6 @@ RegisterCommand("civilian", function()
             giveWeapon("weapon_PetrolCan")
             giveWeapon("weapon_Parachute")
 
+            notify("~g~You're Civilian Weapons were given to you!")
+
 end)
