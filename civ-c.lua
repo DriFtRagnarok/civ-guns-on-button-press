@@ -1,7 +1,7 @@
 --Created by DriFt Ragnarok for San Andreas Department of Law
 --DO NOT REPRODUCE WITHOUT MY PERMISSION
 
-RegisterCommand("civilian", function()
+RegisterCommand("civ", function()
 
     Citizen.Wait(1)
 
